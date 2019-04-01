@@ -1,0 +1,669 @@
+
+body {
+    margin: 0;
+    height: 100%;
+    /*border: 1px green solid;*/
+}
+
+
+html {
+    background-image: url("https://lh3.googleusercontent.com/lbKwiv7cwwD6nABFBA5qQYx9qSAb3GxlGMrWUNG2q11v1nyHFnKNh1Hb1oLdffNkD92MsUlWvXdgaLiZjT7R7VwwcbQ9O0fB5cY067NYUnLBaMGz8wkZ172rZ2E8Vq7OlRJ5lEuwHYQmV-dqO-ZT7o6X5aFRMH5m0zEMG3Bx73zX6x9d_skibpLR8NilgKTMja8DvcseDfCOAj-gWBdEPGsW_Q_MKkhq8aRf1sSpF_5gebZ6U_NhL0fs9WSOJxqx3HIthJ2c7dtu61_w0awfkKzG7V8zScFTAEgsVHIwmmPEtSvk8Slk4t5LYUjGgkYsYeQmY3mM-YhCR0clztj6rrVEAQkkVAo-kBppq6C_wP7lRNfUUaZGUr5XLPDG5qQJK2p1XIiBgPf-vBCpvJM8K5d4mmKp_wjEmHdJQGV_bubj4jpgWOKC9JWMwX7i4fhiumkHCKz7Cr5VHBr9useXyLqePdd87Y9XaZ1fI_widh2XcWaVuXwsKSy0kkiDcPhVhoORP2tdxk9SBd972AY6ETaa6t-o0O_twz0-4AyCkOW5rSJ2PAy1OwO8HkrRczEcnMBEXo_2c-DVsyZ3Lj3WpXeUP1vSrV-_Zkxty2dtRI5y-s-eRfsQEmlee7j5ybydZmcbHt-i4QvvjNCCl1A-KkuBoNNT7-s=w944-h630-no"); 
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    font-family: 'Fira Sans', sans-serif;
+    border: 1px blue solid;
+}
+
+
+/* {
+border: 1px red solid;
+}*/
+
+
+
+/* HEADER AND NAV CONTAINER */
+.header-nav-layout {
+    display: flex; 
+}
+
+
+/*----"ADOPT ME" TEXT STYLING */
+    .adopt-me { 
+        flex: 1;
+        font-size: 22px;
+        margin-left: 40px;
+    }
+
+        #me-word {
+            color: #FF4850;
+        }
+
+
+/* NAVBAR STYLING */
+    /*.page-nav {
+        display: flex;
+        flex: 1;
+    }*/
+
+        .nav-item {
+            display: flex;
+            flex: 1;
+            width: 100%;
+        }   
+
+            .nav-item li {
+                display: block;
+                justify-content: space-between;
+            }
+
+                    li #about-us {
+                    
+                }
+
+                        #about-us a {
+                        display: block;
+                        font-size: 16px;
+                        list-style: none;
+                        text-decoration: none;
+                        color: #88898B;
+                }
+
+                            #about-us a:hover {
+                            color: #FF4850;
+                        }                  
+
+
+                    li #what-we-do {
+                    
+                }
+
+                        #what-we-do a {
+                        display: block;
+                        font-size: 16px;
+                        list-style: none;
+                        text-decoration: none;
+                        color: #88898B;
+                        justify-content: space-between;
+                    }
+
+                          #what-we-do a:hover {
+                            color: #FF4850;
+                        } 
+
+
+                    li #benefits {
+                    
+                }
+                        #benefits a {
+                        display: block;
+                        font-size: 16px;
+                        list-style: none;
+                        text-decoration: none;
+                        color: #88898B;
+                        justify-content: space-between;
+                }
+
+                            #benefits a:hover {
+                            color: #FF4850;
+                        } 
+
+
+                    li #our-buddies {
+                    
+                }
+
+                        #our-buddies a {
+                        display: block;
+                        font-size: 16px;
+                        list-style: none;
+                        text-decoration: none;
+                        color: #88898B;
+                        justify-content: space-between;
+                    }   
+
+                            #our-buddies a:hover {
+                            color: #FF4850;
+                        }
+
+
+                    li #contact-us {
+                    
+                }
+
+                        #contact-us a {
+                            display: block;
+                            background-color: #FF4850;
+                            color: white;
+                            font-size: 16px;
+                            padding: 14px 28px;
+                            width: auto;
+                            cursor: pointer;
+                            text-align: center;
+                            text-decoration: none; 
+                        }
+
+                            #contact-us a:hover {
+                                background-color: #CCC;
+                            }
+
+
+/* MESSAGE CONTENT AND BUTTON STYING */
+.to-adopt-layout {
+    display: flex;
+    min-height: 100vh;
+    height: 50%;
+    width: 45%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-top: 105px;
+}
+
+
+    .text-box1 {
+        display: flex; 
+        flex-direction: column;
+        text-align: left;
+    }
+
+        .adopt-question {
+            flex: 1;
+            color: black;
+            font-weight: 900;
+            font-size: 28px;
+            padding-bottom: 0;
+        }
+
+            #special-word {
+                color: #FF4850;
+            }
+
+
+        .adopt-answer {
+            flex: 1;
+            font-weight: 300;
+            font-size: 18px; 
+            color: #88898B;
+        }
+
+
+        #find-out-how-btn {
+            display: block;
+            padding-top: 10px;
+        }
+
+            #find-out-how-btn a {
+                display: block;
+                background-color: #FF4850;
+                color: white;
+                font-size: 16px;
+                padding: 14px 28px;
+                width: auto;
+                cursor: pointer;
+                text-align: center;
+                text-decoration: none; 
+            }
+
+                #find-out-how-btn a:hover {
+                    background-color: #CCC;
+                }
+
+
+/* MOBILE-FIRST STYLING*/
+
+@media only screen and (min-width: 782px) {
+
+.header-nav-layout ~ .button-collapse {
+    display: block;    
+
+}
+
+
+/*----"ADOPT ME" TEXT STYLING */
+    .adopt-me { 
+        flex: 1;
+        font-size: 22px;
+        margin-left: 40px;
+    }
+
+        #me-word {
+            color: #FF4850;
+        }
+
+
+/* NAVBAR STYLING */
+    /*.page-nav {
+        display: flex;
+        flex: 1;
+    }*/
+
+        .nav-item {
+            display: flex;
+
+
+        }   
+
+            .nav-item li {
+                display: flex;
+                justify-content: space-between;
+                /*display: inline-flex;
+                width: auto;
+                align-content: flex-end;*/
+            }
+
+                    li #about-us {
+                    
+                }
+
+                        #about-us a {
+                        display: block;
+                        font-size: 16px;
+                        list-style: none;
+                        text-decoration: none;
+                        color: #88898B;
+                }
+
+                    li #what-we-do {
+                    
+                }
+
+                        #what-we-do a {
+                        display: block;
+                        font-size: 16px;
+                        list-style: none;
+                        text-decoration: none;
+                        color: #88898B;
+                        justify-content: space-between;
+                    }
+
+                    li #benefits {
+                    
+                }
+                        #benefits a {
+                        display: block;
+                        font-size: 16px;
+                        list-style: none;
+                        text-decoration: none;
+                        color: #88898B;
+                        justify-content: space-between;
+                }
+
+
+                    li #our-buddies {
+                    
+                }
+
+                        #our-buddies a {
+                        display: block;
+                        font-size: 16px;
+                        list-style: none;
+                        text-decoration: none;
+                        color: #88898B;
+                        justify-content: space-between;
+                    }   
+
+
+                    li #contact-us {
+                    
+                }
+
+                        #contact-us a {
+                            display: block;
+                            background-color: #FF4850;
+                            color: white;
+                            font-size: 16px;
+                            padding: 14px 28px;
+                            cursor: pointer;
+                            text-align: center;
+                            text-decoration: none; 
+                        }
+
+                        /*.nav-item > ul {
+                        height: 100vh;
+                        display: flex;
+                        flex-direction: row;
+                        }
+                        .nav-item > ul > li {
+                        flex: 1;
+                        }*/
+
+
+/* MESSAGE CONTENT AND BUTTON STYING */
+.to-adopt-layout {
+    display: flex;
+    min-height: 100vh;
+    height: 50%;
+    width: 45%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-top: 105px;
+}
+
+
+    .text-box1 {
+        display: flex; 
+        flex-direction: column;
+        text-align: left;
+    }
+
+        .adopt-question {
+            flex: 1;
+            color: black;
+            font-weight: 900;
+            font-size: 28px;
+            padding-bottom: 0;
+        }
+
+            #special-word {
+                color: #FF4850;
+            }
+
+
+        .adopt-answer {
+            flex: 1;
+            font-weight: 300;
+            font-size: 18px; 
+        }
+
+
+        #find-out-how-btn {
+            display: block;
+            padding-top: 10px;
+        }
+
+            #find-out-how-btn a {
+                display: block;
+                background-color: #FF4850;
+                color: white;
+                font-size: 16px;
+                padding: 14px 28px;
+                width: 25%;
+                cursor: pointer;
+                text-align: center;
+                text-decoration: none; 
+            }
+
+                #find-out-how-btn a:hover {
+                    background-color: #CCC;
+                }
+
+/*
+@media (min-width: 700px) {
+
+.header-nav-layout {
+    display: flex; 
+}
+
+
+/*----"ADOPT ME" TEXT STYLING */
+    .adopt-me { 
+        flex: 1;
+        font-size: 22px;
+        margin-left: 40px;
+    }
+
+        #me-word {
+            color: #FF4850;
+        }
+
+
+/* NAVBAR STYLING */
+    /*.page-nav {
+        display: flex;
+        flex: 1;
+    }*/
+
+        .nav-item {
+            display: flex;
+            flex: 1;
+            width: 100%;
+        }   
+
+            .nav-item li {
+                display: block;
+                justify-content: space-between;
+
+            }
+
+                    li #about-us {
+                    
+                }
+
+                        #about-us a {
+                        display: block;
+                        font-size: 16px;
+                        list-style: none;
+                        text-decoration: none;
+                        color: #88898B;
+                }
+
+                    li #what-we-do {
+                    
+                }
+
+                        #what-we-do a {
+                        display: block;
+                        font-size: 16px;
+                        list-style: none;
+                        text-decoration: none;
+                        color: #88898B;
+                        justify-content: space-between;
+                    }
+
+                    li #benefits {
+                    
+                }
+                        #benefits a {
+                        display: block;
+                        font-size: 16px;
+                        list-style: none;
+                        text-decoration: none;
+                        color: #88898B;
+                        justify-content: space-between;
+                }
+
+
+                    li #our-buddies {
+                    
+                }
+
+                        #our-buddies a {
+                        display: block;
+                        font-size: 16px;
+                        list-style: none;
+                        text-decoration: none;
+                        color: #88898B;
+                        justify-content: space-between;
+                    }   
+
+
+                    li #contact-us {
+                    
+                }
+
+                        #contact-us a {
+                            display: block;
+                            background-color: #FF4850;
+                            color: white;
+                            font-size: 16px;
+                            padding: 14px 28px;
+                            cursor: pointer;
+                            text-align: center;
+                            text-decoration: none; 
+                        }
+
+                        /*.nav-item > ul {
+                        height: 100vh;
+                        display: flex;
+                        flex-direction: row;
+                        }
+                        .nav-item > ul > li {
+                        flex: 1;
+                        }*/
+
+
+/* MESSAGE CONTENT AND BUTTON STYING */
+.to-adopt-layout {
+    display: flex;
+    min-height: 100vh;
+    height: 50%;
+    width: 45%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-top: 105px;
+}
+
+
+    .text-box1 {
+        display: flex; 
+        flex-direction: column;
+        text-align: left;
+    }
+
+        .adopt-question {
+            flex: 1;
+            color: black;
+            font-weight: 900;
+            font-size: 28px;
+            padding-bottom: 0;
+        }
+
+            #special-word {
+                color: #FF4850;
+            }
+
+
+        .adopt-answer {
+            flex: 1;
+            font-weight: 300;
+            font-size: 18px; 
+        }
+
+
+        #find-out-how-btn {
+            display: block;
+            padding-top: 10px;
+        }
+
+            #find-out-how-btn a {
+                display: block;
+                background-color: #FF4850;
+                color: white;
+                font-size: 16px;
+                padding: 14px 28px;
+                width: 25%;
+                cursor: pointer;
+                text-align: center;
+                text-decoration: none; 
+            }
+
+                #find-out-how-btn a:hover {
+                    background-color: #CCC;
+                }
+
+@media (min-width: 900px) {
+
+.header-nav-layout {
+    display: flex; 
+}
+
+
+/*----"ADOPT ME" TEXT STYLING */
+    .adopt-me { 
+        flex: 1;
+        font-size: 22px;
+        margin-left: 40px;
+    }
+
+        #me-word {
+            color: #FF4850;
+        }
+
+
+/* NAVBAR STYLING */
+    /*.page-nav {
+        display: flex;
+        flex: 1;
+    }*/
+
+        .nav-item {
+            display: flex;
+            flex: 1;
+            width: 100%;
+        }   
+
+            .nav-item li {
+                display: block;
+                justify-content: space-between;
+                /*display: inline-flex;
+                width: auto;
+                align-content: flex-end;*/
+            }
+
+ 
+
+
+
+/* MESSAGE CONTENT AND BUTTON STYING */
+.to-adopt-layout {
+    display: flex;
+    min-height: 100vh;
+    height: 50%;
+    width: 45%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-top: 105px;
+}
+
+
+    .text-box1 {
+        display: flex; 
+        flex-direction: column;
+        text-align: left;
+    }
+
+        .adopt-question {
+            flex: 1;
+            color: black;
+            font-weight: 900;
+            font-size: 28px;
+            padding-bottom: 0;
+        }
+
+            #special-word {
+                color: #FF4850;
+            }
+
+
+        .adopt-answer {
+            flex: 1;
+            font-weight: 300;
+            font-size: 18px; 
+        }
+
+
+        #find-out-how-btn {
+            display: block;
+            padding-top: 10px;
+        }
+
+            #find-out-how-btn a {
+                display: block;
+                background-color: #FF4850;
+                color: white;
+                font-size: 16px;
+                padding: 14px 28px;
+                width: 25%;
+                cursor: pointer;
+                text-align: center;
+                text-decoration: none; 
+            }
+
+                #find-out-how-btn a:hover {
+                    background-color: #CCC;
+                }
+}
